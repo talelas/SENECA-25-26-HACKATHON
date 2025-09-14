@@ -11,6 +11,8 @@ THE ABSTRACT ARCHITECTURE IS SHOWN in the graph of the main folder followed by t
 The data that we have used for fine tuning is taken from https://www.kaggle.com/datasets/curiel/rfitness-posts-and-comments, we also did web crawling using Reddit's API, on the r/bodybuilding subreddit.
 We used the T5 and GPT2 models for fine-tuning, and also used all-MiniLM-L6-v2.
 
+Link to the demo: https://www.youtube.com/watch?v=8u2Ko07zf-k
+
 # Setup
 
 **Download SENECA-25-26-HACKATHON SOURCE, unpack it, main folders are server and client**
