@@ -16,6 +16,16 @@ We used the T5 and GPT2 models for fine-tuning, and also used all-MiniLM-L6-v2.
 
 Link to the demo: https://www.youtube.com/watch?v=8u2Ko07zf-k
 
+# Real-time processing
+Our Kafka + Flask API, uses modern solutions (Kafka, FAISS, etc.) to make a low latency NLP pipeline, that is designed for an AI-fueled social media platform.
+Our models are light (50 million parameters), and our embeddings are few.
+
+# Accuracy
+Our model uses semantic similarity and a user's personal bio, subjects of interests, level of expertise (determined through height and weight), using a weighted formula for each component, to accurately determine what they're most interested in, to give posts ranked by most relevance. This accuracy is noticeable given the posts that appear when refreshing the application after changing the bio (you can see this in the demo).
+
+# Speed
+Kafka is especially designed for this. It's designed to coordinate perfectly, to carry a big flux data over many users, receiving updates, and doing gossip updates automatically periodically without compromising latency. We also rely on embedding caching, FAISS, small models, to process data as fast as possible. Our models is so fast that we don't mind adding a web crawler that crawls the r/BodyBuilding subreddit, for continuous ingestion, to further improve the model overtime, by adding more posts to the embedding pool.
+
 # Setup
 
 **Download SENECA-25-26-HACKATHON SOURCE, unpack it, main folders are server and client**
