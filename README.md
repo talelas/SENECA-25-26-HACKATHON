@@ -9,7 +9,7 @@ wW created a service that recommends users posts depending on their interests  a
 
 THE ABSTRACT ARCHITECTURE IS SHOWN in the graph of the main folder followed by the pipeline architecture
 The data that we have used for fine tuning is taken from https://www.kaggle.com/datasets/curiel/rfitness-posts-and-comments, we also did web crawling using Reddit's API, on the r/bodybuilding subreddit.
-We used the T5 and GPT2 models for fine-tuning, and also used ll-MiniLM-L6-v2.
+We used the T5 and GPT2 models for fine-tuning, and also used all-MiniLM-L6-v2.
 
 # Setup
 
