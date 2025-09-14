@@ -13,6 +13,8 @@ We used the T5 and GPT2 models for fine-tuning, and also used all-MiniLM-L6-v2.
 
 # Setup
 
+**Download SENECA-25-26-HACKATHON SOURCE, unpack it, main folders are server and client**
+
 ## Server
 ### Kafka
 Download Kafka 2.13, start terminal in Kafka's folder
