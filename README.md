@@ -8,10 +8,10 @@ TO walk through this reposit we can start by the IDEA:
 wW created a service that recommends users posts depending on their interests  and posts in sports field that can handle a big flux in data through our pipeline built on Apache. The model we built ia a powerful recommendation system that loops and feeds itself ensuring the model's continuous improvement and real-time request handling.
 
 THE ABSTRACT ARCHITECTURE IS SHOWN in the graph of the main folder followed by the pipeline architecture, these are theoritical, we plan to fully explore all these components eventually.
-!()[pipeline2.png]
-!()[main%20architecture.jpeg]
+![](pipeline2.png)
+![](main%20architecture.jpeg)
 
-The data that we have used for fine tuning is taken from https://www.kaggle.com/datasets/curiel/rfitness-posts-and-comments, we also did web crawling using Reddit's API, on the r/bodybuilding subreddit.
+The data that we have used for fine-tuning is taken from https://www.kaggle.com/datasets/curiel/rfitness-posts-and-comments, we also did web crawling using Reddit's API, on the r/bodybuilding subreddit.
 We used the T5 and GPT2 models for fine-tuning, and also used all-MiniLM-L6-v2.
 
 Link to the demo: https://www.youtube.com/watch?v=8u2Ko07zf-k
